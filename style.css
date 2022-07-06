@@ -1,0 +1,30 @@
+@charset 'utf-8';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+/* //#의 의미 16진수// */
+
+img{
+  vertical-align: middle;
+  border: 0;
+}
+
+html{}
+body{}
+
+/* 공통구역 */
+
+.clearfix{}
+
+.inner{}
