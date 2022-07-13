@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+/* .bg{
+position: relative;
+display: block;
+padding: 50px;
+background-color: #ccc;
+border:5px solid #000;
+}
+
+.inner{
+  position: relative;
+  display: block;
+  padding: 20px;
+  background-color: pink;
+
+}
+.display{
+  position: relative;
+  display: block;
+  font-size: 20px;
+} */
+
+/* .on{
+  background-color: red;
+  color: #fff;
+} */
+
+/* .box{
+  position: absolute;
+  display: block;
+  left: 0;
+  top:0;
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+
+} */
+  </style>
+  <script src
+  ="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script>
+
+  $(document).ready(function(){
+
+  });
+// $(document).ready(function(){
+//   let box =$('.box');
+//   box.mouseenter(function(){
+//     $(this).animate({
+//       width:800,
+//       height:800,
+//       opacity:0,
+//       left:100,
+//       top:100,
+//     },1000);
+//   });
+//   box.mouseleave(function(){
+// $(this).animate({
+//   width:100,
+//   opacity:1
+// },3000);
+//   });
+// });
+//   $(document).ready(function(){
+//     $('#m1 input').focus(function(){
+//       $(this).addClass('on');
+//     });
+//     $('#m1 input').blur(function(){
+    
+//     $(this).removeClass('on');
+//   });
+// });
+// $("#m1").submit(function(){
+//   // txt-1의 값을 확인
+//   let temp = $('.txt-1').val();
+//   if(!temp){
+//     alert('1번 입력하세요.');
+//     $('.txt-1').focus();
+
+//      return false;
+//     // temp  값이 없다면
+//   }
+
+// });
+
+
+//   $(document).ready(function(){
+// $('.wrap-2').mouseenter(function(){
+//   $('.display').append('<strong>마우스 엔터</strong>');
+//   //mouseover html 갯수만큼 실행된다
+//   //mouseenter html 선택된 대상에만 실행된다
+// });
+
+//   });
+
+//   $(document).ready(function(){
+//     $(window).resize(function(){
+//         let ww = $(window).width();
+//         console.log(ww);
+//       });
+//       $(window).scroll(function(){
+//         let wY =$(window).scrollTop();
+// console.log(wY);
+//       });
+
+//     });
+
+// $(document).ready(function(){
+//   let bt1 = $('.bt-1');
+//   let bt2 = $('.bt-2');
+//   let bt3 = $('.bt-3');
+//   let bt4 = $('.bt-4');
+//   let bt5 = $('.bt-5');
+//   let bt6 = $('.bt-6');
+//   let box = $('.box');
+
+
+//   bt1.click(function(){
+// box.stop().hide();
+//   });
+//   bt2.click(function(){
+// box.stop().show();
+//   });
+//   bt3.click(function(){
+// box.stop().slideDown();
+//   });
+//   bt4.click(function(){
+// box.stop().slideUp();
+//   });
+//   bt5.click(function(){
+// box.stop().fadeIn();
+//   });
+//   bt6.click(function(){
+// box.stop().fadeOut();
+//   });
+// })
+
+</script>
+</head>
+<body>
+  <!-- <div class="wrap-1 bg">
+    <div class="inner">mouse over</div>
+  </div>
+
+  <div class="wrap-2 bg">
+    <div class="inner">mouse enter</div>
+  </div>
+
+  <div class="display">
+
+  </div> -->
+
+  <!-- <form action="" id="m1">
+    <input type="text" class="txt-1"><br>
+    <input type="text" class="txt-2"><br>
+    <button type="submit" class="bt">전송</button>
+  </form>
+
+
+  <button class="bt-1">hide</button>
+  <button class="bt-2">show</button>
+  <button class="bt-3">slide down</button>
+  <button class="bt-4">slide up</button>
+  <button class="bt-5">fade in</button>
+  <button class="bt-6">fade out</button> -->
+<div class="box"></div>
+</body>
+</html>
